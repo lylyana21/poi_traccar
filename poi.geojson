@@ -1,0 +1,29 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": { "name": "Kantor" },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.827153, -6.175392] 
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Pelabuhan" },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.808, -6.120]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Gudang" },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.85, -6.17]
+      }
+    }
+  ]
+}
