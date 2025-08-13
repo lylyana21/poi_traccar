@@ -1,11 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
+    <name>Home</name>
+    <Style id="buildingIcon">
+      <IconStyle>
+        <Icon>
+          <href>https://maps.google.com/mapfiles/kml/shapes/buildings.png</href>
+        </Icon>
+        <scale>1.2</scale>
+      </IconStyle>
+    </Style>
     <Placemark>
-      <name>Lokasi POI</name>
+      <name>Lokasi Gedung</name>
+      <styleUrl>#buildingIcon</styleUrl>
       <Point>
         <coordinates>106.817897,-6.311003,0</coordinates>
       </Point>
     </Placemark>
   </Document>
 </kml>
+
